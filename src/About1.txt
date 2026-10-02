@@ -1,0 +1,9 @@
+This i how i created this project
+Used Chatgpt for the Whole program
+used npm create vite@latest to create a new file
+made every code go under src/pages
+made every pictures go under src/assets/images and imageshop
+the code come under Home, Shop, Contact,About, Cart,Checkout,Comparison, Wishlist
+
+
+Made by Manoj S and Chatgpt

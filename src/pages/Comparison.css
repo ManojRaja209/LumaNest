@@ -1,0 +1,462 @@
+/* ================================
+   LUNANEST - COMPARISON PAGE
+================================ */
+
+.comparison-page {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #222222;
+}
+
+/* ================================
+   HERO
+================================ */
+
+.comparison-hero {
+  min-height: 280px;
+  background: #f8f5ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.comparison-hero-content h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.comparison-hero-content p {
+  font-size: 15px;
+  color: #555555;
+}
+
+.comparison-hero-content a {
+  color: #222222;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.comparison-hero-content span {
+  margin: 0 8px;
+  color: #999999;
+}
+
+/* ================================
+   MAIN CONTAINER
+================================ */
+
+.comparison-container {
+  width: 92%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 70px 0 80px;
+}
+
+/* ================================
+   TOP PRODUCT AREA
+================================ */
+
+.comparison-top {
+  display: grid;
+  grid-template-columns: 1.1fr 1.3fr 1.3fr 1fr;
+  gap: 30px;
+  align-items: start;
+  margin-bottom: 70px;
+}
+
+.comparison-intro {
+  padding-top: 30px;
+}
+
+.comparison-intro h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #222222;
+  margin-bottom: 25px;
+}
+
+.comparison-view-more {
+  display: inline-block;
+  color: #555555;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid #555555;
+  padding-bottom: 5px;
+}
+
+/* ================================
+   PRODUCT CARDS
+================================ */
+
+.comparison-product-card {
+  text-align: left;
+}
+
+.comparison-image-box {
+  width: 100%;
+  height: 270px;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.comparison-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.comparison-product-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.comparison-price {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.comparison-rating {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.comparison-rating strong {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.comparison-rating span {
+  color: #d9a441;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.comparison-reviews {
+  font-size: 13px;
+  color: #777777;
+}
+
+/* ================================
+   ADD PRODUCT
+================================ */
+
+.comparison-add-product {
+  padding-top: 30px;
+}
+
+.comparison-add-product h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.comparison-add-product select {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 15px;
+  border: none;
+  background: #f4f0e8;
+  color: #333333;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.comparison-add-product select:focus {
+  outline: 1px solid #b89b72;
+}
+
+/* ================================
+   COMPARISON SECTIONS
+================================ */
+
+.comparison-section {
+  margin-bottom: 55px;
+}
+
+.comparison-section-title {
+  padding: 20px 0;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 0;
+}
+
+.comparison-section-title h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* ================================
+   COMPARISON ROWS
+================================ */
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: 1.1fr 1.3fr 1.3fr 1fr;
+  min-height: 85px;
+  border-bottom: 1px solid #eeeeee;
+  align-items: center;
+}
+
+.comparison-row > div {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555555;
+}
+
+.comparison-row .comparison-label {
+  font-weight: 600;
+  color: #222222;
+  font-size: 15px;
+  padding-left: 0;
+}
+
+/* ================================
+   BUTTONS
+================================ */
+
+.comparison-buttons {
+  display: grid;
+  grid-template-columns: 1.1fr 1.3fr 1.3fr 1fr;
+  gap: 30px;
+  margin-top: -25px;
+  margin-bottom: 70px;
+}
+
+.comparison-cart-button {
+  width: 100%;
+  min-height: 52px;
+  border: 1px solid #222222;
+  background: #222222;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.comparison-cart-button:hover {
+  background: #ffffff;
+  color: #222222;
+}
+
+/* ================================
+   BENEFITS
+================================ */
+
+.comparison-benefits {
+  background: #f8f5ef;
+  padding: 45px 7%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.comparison-benefits > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comparison-benefits strong {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.comparison-benefits span {
+  font-size: 13px;
+  color: #777777;
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+.comparison-footer {
+  background: #ffffff;
+  border-top: 1px solid #eeeeee;
+  padding: 60px 7%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 60px;
+}
+
+.comparison-footer h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.comparison-footer h4 {
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.comparison-footer p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.comparison-footer a {
+  display: block;
+  color: #555555;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.comparison-footer a:hover {
+  color: #111111;
+}
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 1100px) {
+  .comparison-container {
+    width: 94%;
+  }
+
+  .comparison-top {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .comparison-intro {
+    grid-column: span 2;
+    padding-top: 0;
+  }
+
+  .comparison-add-product {
+    grid-column: span 2;
+  }
+
+  .comparison-row {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .comparison-row > div:last-child {
+    display: none;
+  }
+
+  .comparison-buttons {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .comparison-buttons > div:first-child,
+  .comparison-buttons > div:last-child {
+    display: none;
+  }
+}
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 700px) {
+  .comparison-hero {
+    min-height: 220px;
+  }
+
+  .comparison-hero-content h1 {
+    font-size: 30px;
+  }
+
+  .comparison-container {
+    width: 92%;
+    padding: 45px 0 60px;
+  }
+
+  .comparison-top {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .comparison-intro {
+    grid-column: auto;
+  }
+
+  .comparison-add-product {
+    grid-column: auto;
+  }
+
+  .comparison-image-box {
+    height: 240px;
+  }
+
+  .comparison-product-card h3 {
+    font-size: 21px;
+  }
+
+  .comparison-row {
+    grid-template-columns: 1fr;
+    padding: 10px 0;
+  }
+
+  .comparison-row > div {
+    padding: 10px 0;
+  }
+
+  .comparison-row .comparison-label {
+    padding-bottom: 3px;
+  }
+
+  .comparison-buttons {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 0;
+  }
+
+  .comparison-benefits {
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 7%;
+    gap: 30px 20px;
+  }
+
+  .comparison-benefits strong {
+    font-size: 15px;
+  }
+
+  .comparison-benefits span {
+    font-size: 12px;
+  }
+
+  .comparison-footer {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding: 45px 7%;
+  }
+}
+
+/* ================================
+   SMALL MOBILE
+================================ */
+
+@media (max-width: 450px) {
+  .comparison-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-hero-content h1 {
+    font-size: 26px;
+  }
+
+  .comparison-product-card {
+    width: 100%;
+  }
+}
